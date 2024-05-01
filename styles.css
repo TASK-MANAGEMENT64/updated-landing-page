@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.container {
+    padding: 60px 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title {
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+header.home {
+    width: 100%;
+    height: 600px;
+    background: #ffffff;
+    background: -webkit-linear-gradient(to right, hsla(212, 10%, 29%, 0.636), hsla(210, 5%, 85%, 0.701));
+    background: linear-gradient(to right, hsla(212, 10%, 29%, 0.636), hsla(210, 5%, 85%, 0.701)), url(Images/Miscellaneous/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header.second{
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    background: linear-gradient(to right, hsla(212, 10%, 29%, 0.636), hsla(210, 5%, 85%, 0.701)), url(Images/Miscellaneous/cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav>a {
+    color: #1c2737;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav>a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+header .header-text {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.header-text h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*about*/
+.container-about-us {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutUs-image {
+    width: 48%;
+}
+
+.aboutUs .text-content {
+    width: 48%;
+}
+
+.text-content h3 {
+    margin-bottom: 15px;
+}
+.text-content h3 span {
+    background: #7f7f7f;
+    color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+.text-content p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+/*-----------Clientes-------*/
+.faces{
+    display: flex;
+    justify-self: space-evenly;
+}
+.faces .face{
+    background: #495464;
+    display: flex;
+    width: 55%;
+    height: 200px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    padding: 20px; 
+    box-sizing: border-box;
+}
+.faces .face img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    display: block;
+}
+.faces .face > .text-content-face{
+    width: 60%;
+    color: #ffffff;
+}
+/**/
+.faces .face > .text-content-face h4 {
+    margin-bottom: 10px; 
+    font-size: 18px; 
+    font-weight: bold; 
+}
+/**/
+.cards .card > .text-content-face p{
+    font-weight: 300;
+    font-size: 14px; 
+    margin: 0; 
+}
+/*------------our team_-------------*/
+.about_servicies{
+
+    background: #bdc3c7;
+    padding-bottom: 30px;
+}
+.container-services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.index-service{
+    width: 30%;
+    text-align: center;
+}
+.index-service img{
+    width: 100%;
+    max-width: 100%;
+}
+.index-service h3{
+    margin: 10px 0;
+}
+.index-service p{
+    font-weight: 300;
+    text-align: justify;
+}
+/*Footer*/
+footer{
+    background: #7f7f7f;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.footer-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content h4{
+    color: #fff;
+    border-bottom: 3px solid #2f2e4e;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.final-title{
+    color: #ffffff;
+}
+
+/*------sonbre nosotros*/
+.AboutTheTeam {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.AboutTheTeam h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.hero-text {
+    width: 70%;
+    margin: 0 auto 40px; 
+}
+
+.hero-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #495464; 
+}
+
+.hero-text p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#team-info, #team-mission, #team-vision {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    margin-bottom: 40px; 
+}
+/*---------------Galeria Perfiles---------------*/
+.top-cards, .bottom-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 220px;
+    height: 320px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/*---------------Registro---------------*/
+h1.TM{
+    font-size: 50px;
+    text-align: center;
+}
+img.Logo{
+    display:block;
+    margin: auto; 
+    width: 100px;
+    height: 100px;
+}
+
+input.field{
+    font-size: 20px;
+    text-align: left;
+    display:block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label.TyC{
+    font-size: 20px;
+    text-align: center;
+    display:block;
+    margin: auto; 
+}
+
+fieldset.details{
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 30px 0;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    header.home {
+        height: 400px;
+    }
+
+    header.second {
+        height: 150px;
+    }
+
+    nav {
+        padding: 15px 25px 0 0;
+    }
+
+    nav>a {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+
+    .header-text {
+        height: 300px;
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+    }
+
+    .header-text h2 {
+        font-size: 24px;
+    }
+
+    .wave {
+        display: none;
+    }
+
+    .container-about-us {
+        flex-direction: column;
+    }
+
+    .aboutUs-image,
+    .text-content {
+        width: 100%;
+    }
+
+    .faces {
+        flex-direction: column;
+    }
+
+    .faces .face {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .faces .face img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .index-service {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-content {
+        margin-bottom: 30px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .card img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header.home {
+        height: 80px;
+    }
+
+    header.second {
+        height: 20px;
+    }
+
+    nav {
+        padding: 10px 15px 0 0;
+    }
+
+    nav>a {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    .header-text h1,
+    .header-text h2 {
+        display: none;
+    }
+
+    .aboutUs-image,
+    .text-content {
+        width: 100%;
+    }
+
+    .faces .face img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .index-service h3 {
+        font-size: 16px;
+    }
+
+    .index-service p {
+        font-size: 14px;
+    }
+
+    .footer-content h4 {
+        font-size: 18px;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card img {
+        width: 60px;
+        height: 60px;
+    }
+}
